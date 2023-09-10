@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Netflix Homepage</title>
+        <link rel="stylesheet" href="Netf.css">
+    </head>
+    <body>
+        <div class="Header">
+            <h1><img src="https://www.linkpicture.com/q/Netflix_font-4.png" class="net"></h1>
+            <a href="#" class="sig">Sign In</a>
+        </div>
+        <div class="para">
+            <p>
+                Unlimited movies,TV<br>
+                shows,and more
+            </p>
+        </div>
+            <p class="p2">
+                Watch anywhere.Cancel anytime;
+            </p>
+            <p class="p3">
+                Ready to watch? Enter your email to create or restart your membership.
+            </p><br>
+        <div class="tl">
+            <input type="text" placeholder="Email address" class="lab"></input>    
+            <a href="#" class=but1 >GET STARTED ></a>
+        </div>
+    </body>
+</html>
+
+--------------------------CSS--------------------------
+
+body
+{
+    background-image: url(Netflix_bg.jpg);
+    background-image: url(Netflix_bg.jpg),linear-gradient(rgba(2, 234, 255, 0.545),rgba(0, 0, 0, 0));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sig
+{
+    margin-right:0px;
+    text-decoration:none;
+    display:inline-block;
+    border:2px solid ;
+    border-radius:6px;
+    color:white;
+    background-color: red;
+    position:relative;
+    margin-left:1400px;
+    padding:8px;
+    border-color: red;
+    margin-top:-99px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+p
+{
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+}
+.para
+{
+    font-weight:bold;
+    font-size:50px;
+    color:white;
+}
+.p2
+{
+    font-weight:bold;
+    font-size:20px;
+    color:rgba(255, 255, 255, 0.789);
+}
+.p3
+{
+    font-weight:500;
+    font-size:15px;
+    color:rgba(255, 255, 255, 0.685);
+}
+.tl
+{
+    display:flex;
+    margin-left:500px;
+}
+.lab
+{
+    display:inline-block;
+    border:2px solid white;
+    padding:10px;
+    width:40%;
+}
+.but1
+{
+    text-decoration: none;
+    padding:10px;
+    display:inline-block;
+    border:2px solid red;
+    background-color: red;
+    color:white;
+    
+}
